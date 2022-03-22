@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/background_star"
+        android:drawable="@drawable/check_xingxing_empty" />
+    <item android:id="@+id/background_star_second"
+        android:drawable="@drawable/check_xingxing_empty" />
+    <item android:id="@+id/background_star_progress"
+        android:drawable="@drawable/check_xingxing" />
+</layer-list>

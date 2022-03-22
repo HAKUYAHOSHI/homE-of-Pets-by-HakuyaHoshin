@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:id="@+id/home_page_container"
+    android:orientation="vertical">
+
+     <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+         android:layout_width="match_parent"
+         android:id="@+id/home_pager_refresh"
+         android:layout_height="match_parent">
+
+          <androidx.core.widget.NestedScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+
+                   android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/home_swiper_shape"
+                        android:padding="3dp">
+
+                         <androidx.viewpager.widget.ViewPager
+                             android:id="@+id/home_pager_swiper"
+                             android:layout_width="match_parent"
+                             android:layout_height="175dp"
+                             android:layout_marginLeft="10dp"
+
+                             android:layout_marginTop="5dp"
+                             android:layout_marginRight="10dp"
+                             android:overScrollMode="never" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp">
+
+                         <LinearLayout
+                             android:layout_width="100dp"
+                             android:layout_height="wrap_content"
+                             android:gravity="center_horizontal"
+                             android:orientation="vertical"
+                             android:padding="5dp">
+
+                              <ImageButton
+                                  android:layout_width="60dp"
+                                  android:layout_height="60dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginRight="10dp"
+                                  android:background="@color/white"
+                                  android:scaleType="centerInside"
+                                  android:src="@drawable/gougou" />
+
+                              <TextView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginTop="8dp"
+                                  android:text="寄养"
+                                  android:textAlignment="center"
+                                  android:textColor="@color/black"
+                                  android:textSize="20sp" />
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="100dp"
+                             android:layout_height="wrap_content"
+                             android:gravity="center_horizontal"
+                             android:orientation="vertical"
+                             android:padding="5dp">
+
+                              <ImageButton
+                                  android:layout_width="60dp"
+                                  android:layout_height="60dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginRight="10dp"
+                                  android:background="@color/white"
+                                  android:scaleType="centerInside"
+                                  android:src="@drawable/lingyangshijian" />
+
+                              <TextView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginTop="8dp"
+                                  android:text="寄养中"
+                                  android:textAlignment="center"
+                                  android:textColor="@color/black"
+                                  android:textSize="20sp" />
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="100dp"
+                             android:layout_height="wrap_content"
+                             android:gravity="center_horizontal"
+                             android:orientation="vertical"
+                             android:padding="5dp">
+
+                              <ImageButton
+                                  android:layout_width="60dp"
+                                  android:layout_height="60dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginRight="10dp"
+                                  android:background="@color/white"
+                                  android:scaleType="centerInside"
+                                  android:src="@drawable/fudai" />
+
+                              <TextView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginTop="8dp"
+                                  android:text="商城"
+                                  android:textAlignment="center"
+                                  android:textColor="@color/black"
+                                  android:textSize="20sp" />
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="100dp"
+                             android:layout_height="wrap_content"
+                             android:gravity="center_horizontal"
+                             android:orientation="vertical"
+                             android:padding="5dp">
+
+                              <ImageButton
+                                  android:layout_width="60dp"
+                                  android:layout_height="60dp"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginRight="10dp"
+                                  android:background="@color/white"
+                                  android:scaleType="centerInside"
+                                  android:src="@drawable/nvhai" />
+
+                              <TextView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginTop="8dp"
+                                  android:text="我的"
+                                  android:textAlignment="center"
+                                  android:textColor="@color/black"
+                                  android:textSize="20sp" />
+                         </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                         <TextView
+                             android:id="@+id/home_text_recommend"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:padding="10dp"
+                             android:text="寄养明星"
+                             android:textColor="@color/black"
+                             android:textSize="26sp" />
+                         <ImageView
+                             android:layout_marginBottom="5dp"
+                             android:id="@+id/home_text_recommend"
+                             android:layout_marginLeft="120dp"
+                             android:layout_width="40dp"
+                             android:layout_height="40dp"
+                             android:src="@mipmap/icon_huangguan" />
+                         <TextView
+                             android:id="@+id/home_text_recommend"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentRight="true"
+                             android:padding="10dp"
+                             android:text="查看更多>>"
+                             android:textColor="@color/black"
+                             android:textSize="22sp" />
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/home_swiper_shape"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                         <LinearLayout
+                             android:id="@+id/id_check_small"
+                             android:layout_width="wrap_content"
+                             android:layout_height="match_parent"
+                             android:background="@drawable/check_small_shape"
+                             android:orientation="vertical"
+                             android:gravity="center_horizontal">
+
+                              <ImageView
+                                  android:layout_width="100dp"
+                                  android:layout_height="100dp"
+                                  android:layout_margin="5dp"
+                                  android:src="@drawable/icons_1" />
+
+                              <LinearLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical"
+                                  android:gravity="center_horizontal">
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:text="明明@PETkIT"
+                                       android:textColor="@color/black"
+                                       android:textSize="20sp"
+                                       android:textStyle="bold" />
+
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="80dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="评分:4.8"
+                                            android:textColor="@color/orange"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="tel:17354063064"
+                                            android:textColor="@color/maintheme"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+                                   </LinearLayout>
+                              </LinearLayout>
+
+                         </LinearLayout>
+
+                    </LinearLayout>
+                         <LinearLayout
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:background="@drawable/home_swiper_shape"
+                             android:orientation="vertical"
+                             android:padding="5dp">
+
+                              <LinearLayout
+                                  android:id="@+id/id_check_small"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="match_parent"
+                                  android:background="@drawable/check_small_shape"
+                                  android:orientation="vertical"
+                                  android:gravity="center_horizontal">
+
+                                   <ImageView
+                                       android:layout_width="100dp"
+                                       android:layout_height="100dp"
+                                       android:layout_margin="5dp"
+                                       android:src="@drawable/icons_2" />
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:orientation="vertical"
+                                       android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="小红"
+                                            android:textColor="@color/black"
+                                            android:textSize="20sp"
+                                            android:textStyle="bold" />
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                             <TextView
+                                                 android:layout_width="80dp"
+                                                 android:layout_height="wrap_content"
+                                                 android:text="@string/check_rating_text"
+                                                 android:textColor="@color/orange"
+                                                 android:textSize="16sp"
+                                                 android:textStyle="bold" />
+
+                                             <TextView
+                                                 android:layout_width="wrap_content"
+                                                 android:layout_height="wrap_content"
+                                                 android:text="tel:18356007970"
+                                                 android:textColor="@color/maintheme"
+                                                 android:textSize="14sp"
+                                                 android:textStyle="bold" />
+                                        </LinearLayout>
+                                   </LinearLayout>
+
+                              </LinearLayout>
+
+                         </LinearLayout>
+                         <LinearLayout
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:background="@drawable/home_swiper_shape"
+                             android:orientation="vertical"
+                             android:padding="5dp">
+
+                              <LinearLayout
+                                  android:id="@+id/id_check_small"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="match_parent"
+                                  android:background="@drawable/check_small_shape"
+                                  android:orientation="vertical"
+                                  android:gravity="center_horizontal">
+
+                                   <ImageView
+                                       android:layout_width="100dp"
+                                       android:layout_height="100dp"
+                                       android:layout_margin="5dp"
+                                       android:src="@drawable/icons_3" />
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:orientation="vertical"
+                                       android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="壮壮"
+                                            android:textColor="@color/black"
+                                            android:textSize="20sp"
+                                            android:textStyle="bold" />
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                             <TextView
+                                                 android:layout_width="80dp"
+                                                 android:layout_height="wrap_content"
+                                                 android:text="@string/check_rating_text"
+                                                 android:textColor="@color/orange"
+                                                 android:textSize="16sp"
+                                                 android:textStyle="bold" />
+
+                                             <TextView
+                                                 android:layout_width="wrap_content"
+                                                 android:layout_height="wrap_content"
+                                                 android:text="tel:19909695173 "
+                                                 android:textColor="@color/maintheme"
+                                                 android:textSize="14sp"
+                                                 android:textStyle="bold" />
+                                        </LinearLayout>
+
+
+
+
+                                   </LinearLayout>
+
+
+                              </LinearLayout>
+
+
+                         </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                         <TextView
+                             android:id="@+id/home_text_recommend"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:padding="10dp"
+                             android:text="寄养星店"
+                             android:textColor="@color/black"
+                             android:textSize="26sp" />
+
+                         <TextView
+                             android:id="@+id/home_text_recommend"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentRight="true"
+                             android:padding="10dp"
+                             android:text="查看更多>>"
+                             android:textColor="@color/black"
+                             android:textSize="22sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/home_swiper_shape"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                         <LinearLayout
+                             android:id="@+id/id_check_small"
+                             android:layout_width="370dp"
+                             android:layout_height="match_parent"
+                             android:background="@drawable/check_small_shape"
+                             android:gravity="center_vertical">
+
+                              <ImageView
+                                  android:layout_width="100dp"
+                                  android:layout_height="120dp"
+                                  android:layout_margin="5dp"
+                                  android:src="@drawable/location_3" />
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+
+                                   <TextView
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:text="铲屎官宠物乐园(国际花都店)"
+                                       android:textColor="@color/black"
+                                       android:textSize="20sp"
+                                       android:textStyle="bold" />
+
+                                   <TextView
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:text="蜀山区国际花都郁金苑门面"
+                                       android:textSize="15sp"
+                                       android:textStyle="bold" />
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="80dp"
+                                            android:layout_height="33dp"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_rating_text"
+                                            android:textColor="@color/orange"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="33dp"
+                                            android:paddingTop="5dp"
+                                            android:text="tel:18356007970"
+                                            android:textColor="@color/maintheme"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+                                   </LinearLayout>
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="46dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_coupon_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="46dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_newshop_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="46dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_related_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="56dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_specialpets_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+                                   </LinearLayout>
+
+
+                              </LinearLayout>
+
+
+                         </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/home_swiper_shape"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                         <LinearLayout
+                             android:id="@+id/id_check_small"
+                             android:layout_width="370dp"
+                             android:layout_height="match_parent"
+                             android:background="@drawable/check_small_shape"
+                             android:gravity="center_vertical">
+
+                              <ImageView
+                                  android:layout_width="100dp"
+                                  android:layout_height="120dp"
+                                  android:layout_margin="5dp"
+                                  android:src="@drawable/location_7" />
+
+                              <LinearLayout
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+
+                                   <TextView
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:text="来一宠Pet宠物生活馆"
+                                       android:textColor="@color/black"
+                                       android:textSize="20sp"
+                                       android:textStyle="bold" />
+
+                                   <TextView
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:text="包河区长沙路A6-145"
+                                       android:textSize="15sp"
+                                       android:textStyle="bold" />
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="80dp"
+                                            android:layout_height="33dp"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_rating_text"
+                                            android:textColor="@color/orange"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="33dp"
+                                            android:paddingTop="5dp"
+                                            android:text="0551-62842285"
+                                            android:textColor="@color/maintheme"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+                                   </LinearLayout>
+
+                                   <LinearLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="46dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_coupon_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="46dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_newshop_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="46dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_related_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/check_coupon"
+                                            android:layout_width="56dp"
+                                            android:layout_height="30dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:background="@drawable/home_rec_coupon_shape"
+                                            android:paddingTop="5dp"
+                                            android:text="@string/check_specialpets_text"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+                                   </LinearLayout>
+
+
+                              </LinearLayout>
+
+
+                         </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                         <TextView
+                             android:id="@+id/home_text_recommend"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:padding="10dp"
+                             android:text="为你推荐"
+                             android:textColor="@color/black"
+                             android:textSize="26sp"/>
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/home_pager_recommend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never" />
+
+               </LinearLayout>
+
+          </androidx.core.widget.NestedScrollView>
+
+     </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+
+
+</LinearLayout>

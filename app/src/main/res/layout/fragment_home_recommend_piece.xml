@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp"
+    android:background="@color/slightGrey">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/home_rec_section_shape">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:id="@+id/rec_cover"
+
+        android:src="@mipmap/networkerrror_bukaixin"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TextView
+                android:id="@+id/rec_textmain"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingTop="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="第一排位置最後才坐滿 都怕被 cue 第一排位置最後才坐滿"
+              />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rec_price"
+            android:layout_width="90dp"
+            android:layout_height="33dp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:text="@string/rec_price_text"
+           />
+            <TextView
+                android:id="@+id/rec_coupon"
+                android:layout_width="70dp"
+                android:layout_height="28dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:text="@string/rec_coupon_text"
+                android:textAlignment="center"
+                android:background="@drawable/home_rec_coupon_shape"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/rec_shops"
+            android:layout_width="95dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="3dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/greyForFont"
+            android:text="環球影業旗艦店"
+            android:scrollbars="vertical"
+
+        />
+        <TextView
+            android:id="@+id/rec_peoplenum"
+            android:layout_width="57dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:paddingTop="5dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/greyForFont"
+            android:text="@string/rec_peopleNum_text"
+            android:scrollbars="vertical"
+         />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

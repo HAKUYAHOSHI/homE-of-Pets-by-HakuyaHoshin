@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/home"
+     android:title="@string/home"
+     android:icon="@mipmap/home_selected" />
+
+ <item android:id="@+id/check"
+     android:title="@string/check"
+     android:icon="@mipmap/check_selected" />
+
+ <item android:id="@+id/cart"
+     android:title="@string/cart"
+     android:icon="@mipmap/cart_selected" />
+
+ <item android:id="@+id/meirong"
+     android:title="@string/meirong"
+     android:icon="@mipmap/meirong_selected" />
+
+ <item android:id="@+id/mine"
+     android:title="@string/mine"
+     android:icon="@mipmap/mine_selected" />
+</menu>

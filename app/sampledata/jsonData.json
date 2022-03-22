@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "bigPicTwo": [{
+    "idx": 1,
+    "src": "xxxxx"
+  },
+    {
+      "idx": 2,
+      "src": "xxxxx"
+    }
+  ],
+  "smallPicsrc":"xxxxx",
+  "subtitle": "yiliujishu",
+  "rate": 4.2,
+  "starLevel": 6,
+  "price": "20",
+  "haveCoupon": true,
+  "isNew":true,
+  "haveSupplementary": true,
+  "haveSpeciality": true,
+  "ServiceTime": "早8:00-晚6:00",
+  "keeperTips": "哈哈哈哈哈哈"
+}

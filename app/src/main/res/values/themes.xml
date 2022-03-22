@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PETS" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#009E9D</item>
+        <item name="colorPrimaryVariant">#009E9D</item>
+        <item name="colorOnPrimary">#009E9D</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#009E9D</item>
+        <item name="colorSecondaryVariant">#009E9D</item>
+        <item name="colorOnSecondary">#009E9D</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

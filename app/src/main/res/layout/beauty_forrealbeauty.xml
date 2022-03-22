@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/home_swiper_shape"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/check_small_shape"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/meirongdian_1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="宠物星球生活馆"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="北京市通州区榆景苑二区22号楼1层104"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="评分:4.5"
+                                android:textColor="@color/orange"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="tel:18618486887"
+                                android:textColor="@color/maintheme"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_coupon_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_newshop_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_related_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="56dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_specialpets_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/home_swiper_shape"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/check_small_shape"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/meirongdian_2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="它说宠物(万达广场)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="北京市通州区万达西门金街B区1-160 "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="评分:4.5"
+                                android:textColor="@color/orange"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="tel: 010-56269898 "
+                                android:textColor="@color/maintheme"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_coupon_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_newshop_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_related_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/home_swiper_shape"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/check_small_shape"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/meirongdian_3" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="喵小屋宠物店"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="北京市通州区碧水明珠富河园小区11号楼11号 "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="评分:4.5"
+                                android:textColor="@color/orange"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="tel:18618486887"
+                                android:textColor="@color/maintheme"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_coupon_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_related_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="56dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_specialpets_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/home_swiper_shape"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/check_small_shape"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/meirongdian_4" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="派多格宠物(西马庄店)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="北京市通州区永顺镇西马庄村西马庄小区18号楼1112号 "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="评分:4.5"
+                                android:textColor="@color/orange"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="tel:18548922973"
+                                android:textColor="@color/maintheme"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_coupon_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_newshop_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_related_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/home_swiper_shape"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:id="@+id/beauty_small">
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/check_small_shape"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/meirongdian_5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Menta Pets萌它宠物(通州万达店)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" 北京市通州区新华南一街通州万达金街B区2-137 "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="评分:4.3"
+                                android:textColor="@color/orange"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="tel:18500302839"
+                                android:textColor="@color/maintheme"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_coupon_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_newshop_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_related_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="56dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_specialpets_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/home_swiper_shape"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:id="@+id/id_check_small"
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/check_small_shape"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/meirongdian_6" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="兴宠宠物(永顺店)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="北京市通州区永顺南里1号院底商"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="评分:4.0"
+                                android:textColor="@color/orange"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:paddingTop="5dp"
+                                android:text="tel:18301003343"
+                                android:textColor="@color/maintheme"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_coupon_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/check_coupon"
+                                android:layout_width="46dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="4dp"
+                                android:background="@drawable/home_rec_coupon_shape"
+                                android:paddingTop="5dp"
+                                android:text="@string/check_related_text"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

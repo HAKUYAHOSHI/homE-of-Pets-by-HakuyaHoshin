@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/id_check_small"
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/check_small_shape">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:src="@mipmap/networkerrror_bukaixin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_shopname_text"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_coarse_location_text"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="33dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/orange"
+                android:text="@string/check_rating_text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/maintheme"
+                    android:text="@string/check_tel_text"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_price_text"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/check_coupon"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="46dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/check_coupon_text"
+                    android:textAlignment="center"
+                    android:background="@drawable/home_rec_coupon_shape" />
+                <TextView
+                    android:id="@+id/check_coupon"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="46dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/check_newshop_text"
+                    android:textAlignment="center"
+                    android:background="@drawable/home_rec_coupon_shape" />
+                <TextView
+                    android:id="@+id/check_coupon"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="46dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/check_related_text"
+                    android:textAlignment="center"
+                    android:background="@drawable/home_rec_coupon_shape" />
+                <TextView
+                    android:id="@+id/check_coupon"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="56dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/check_specialpets_text"
+                    android:textAlignment="center"
+                    android:background="@drawable/home_rec_coupon_shape" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

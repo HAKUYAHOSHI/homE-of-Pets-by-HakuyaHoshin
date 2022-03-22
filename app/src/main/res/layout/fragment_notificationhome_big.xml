@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/home_notification_big">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/icon_inner"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:text="宠物e家新加盟商铺公示[2022.2]"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="宠物e家新加盟商铺公示[2022.2]宠物e家新加盟商铺公示[2022.2]宠物e家新加盟商铺公示[2022.2]"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阅读数: 2000+"
+            android:textSize="25sp"
+            android:textColor="@color/black">
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/login_button_shape"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            android:text="赞!"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

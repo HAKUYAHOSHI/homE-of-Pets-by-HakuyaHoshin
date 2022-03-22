@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PETS</string>
+    <string name="home">首页</string>
+    <string name="check">寄养</string>
+    <string name="cart">购物</string>
+    <string name="mine">我的</string>
+    <string name="network_error_tips">網路開小差了，請點擊重試……</string>
+    <string name="loading_tips">拼命加載中……</string>
+    <string name="empty_tips">我是有底綫的……</string>
+    <string name="rec_coupon_text">已省%1$d</string>
+    <string name="rec_price_text">￥%1$.2f</string>
+    <string name="rec_peopleNum_text">已购%1$d</string>
+    <string name="check_price_text">￥20元/天</string>
+    <string name="check_coupon_text">优惠</string>
+    <string name="check_tel_text">tel:400-800-400</string>
+    <string name="check_rating_text">评分:4.2</string>
+    <string name="check_coarse_location_text">地点：花园街道美玲小区1001号</string>
+    <string name="check_shopname_text">欢迎来到西洋古董堂</string>
+    <string name="check_specialpets_text">特宠</string>
+    <string name="check_related_text">配套</string>
+    <string name="check_newshop_text">新店</string>
+    <string name="meirong">医美</string>
+</resources>

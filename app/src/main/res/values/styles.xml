@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="home_navi_text_style" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="login_edittext_style" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/maintheme</item>
+    </style>
+
+    <style name="check_ratingbar" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/check_star_layerlist</item>
+        <item name="android:minHeight">30dip</item>
+        <item name="android:maxHeight">30dip</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+</resources>

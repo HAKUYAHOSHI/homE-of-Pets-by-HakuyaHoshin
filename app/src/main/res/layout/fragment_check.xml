@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.amap.api.maps.TextureMapView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.amap.api.maps.MapView
+
+            android:id="@+id/map"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent" />
+    </com.amap.api.maps.TextureMapView>
+
+
+    <RelativeLayout
+        android:id="@+id/check_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/check_search_shape">
+
+        <EditText
+            android:id="@+id/check_search_bar"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:hint="搜索寄养地/站名……" />
+
+        <ImageButton
+            android:id="@+id/check_search_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/search_forhome" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/check_search_shape"
+            android:gravity="center_vertical"
+            android:text="区域:北京"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/check_search_shape"
+            android:gravity="center_vertical"
+            android:text="更多筛选    ▼"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/check_small_place_layout"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+</RelativeLayout>
