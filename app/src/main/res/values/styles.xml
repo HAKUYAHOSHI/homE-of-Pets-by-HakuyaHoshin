@@ -11,8 +11,8 @@
 
     <style name="check_ratingbar" parent="android:Widget.RatingBar">
         <item name="android:progressDrawable">@drawable/check_star_layerlist</item>
-        <item name="android:minHeight">30dip</item>
-        <item name="android:maxHeight">30dip</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
 </resources>

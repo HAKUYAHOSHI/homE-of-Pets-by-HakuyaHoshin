@@ -18,10 +18,6 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
 import com.amap.api.location.AMapLocationClientOption;
@@ -105,7 +101,7 @@ public class fragmentCheck extends baseFragment implements CheckSmallAdapter.Che
         Context context = getContext();
         if (context != null) {
             new AlertDialog.Builder(context).setTitle("提示")
-                    .setMessage("您授權軟體讀取位置信息").setPositiveButton("確定",null)
+                    .setMessage("您同意用户协议并授权软件获取位置信息").setPositiveButton("確定",null)
                     .setNegativeButton("取消",null).show();
         }
 
@@ -137,7 +133,7 @@ public class fragmentCheck extends baseFragment implements CheckSmallAdapter.Che
                 String poistring = searchbar.getText().toString();
 
                 //1.创建搜索条件对象
-                PoiSearch.Query query = new PoiSearch.Query(poistring,"0551",mcity);
+                PoiSearch.Query query = new PoiSearch.Query(poistring,"090700","0551");
                 //2.创建一个POISearch句柄关联query
                 try {
                     PoiSearch poiSearch = new PoiSearch(getContext(),query);

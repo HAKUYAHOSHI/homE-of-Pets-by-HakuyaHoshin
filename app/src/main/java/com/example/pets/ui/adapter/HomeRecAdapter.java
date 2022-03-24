@@ -63,7 +63,7 @@ public class HomeRecAdapter extends RecyclerView.Adapter<HomeRecAdapter.InnerHol
             @Override
             public void onClick(View v) {
                 if(mItemClickListener!=null){
-                    mItemClickListener.onItemClick(j);
+                    mItemClickListener.onItemClick(holder.getAdapterPosition());
                 }
             }
         });
@@ -201,11 +201,11 @@ public class HomeRecAdapter extends RecyclerView.Adapter<HomeRecAdapter.InnerHol
 
             textMainRec.setText(text_list.get(j));
 
-            Glide.with(context).load(pic_list.get(j)).into(coverRec);
-            couponRec.setText(String.format(context.getString(R.string.rec_coupon_text),discount_list.get(j)));
-            priceRec.setText(String.format(context.getString(R.string.rec_price_text),price_list.get(j)));
-            shopsRec.setText(shop_list.get(j));
-            peopleNumRec.setText(String.format(context.getString(R.string.rec_peopleNum_text),sale_list.get(j)));
+            Glide.with(context).load(pic_list.get(position%5)).into(coverRec);
+            couponRec.setText(String.format(context.getString(R.string.rec_coupon_text),discount_list.get(position%5)));
+            priceRec.setText(String.format(context.getString(R.string.rec_price_text),price_list.get(position%5)));
+            shopsRec.setText(shop_list.get(position%5));
+            peopleNumRec.setText(String.format(context.getString(R.string.rec_peopleNum_text),sale_list.get(position%5)));
         }
     }
 }
