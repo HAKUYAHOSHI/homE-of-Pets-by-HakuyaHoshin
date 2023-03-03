@@ -1,2 +1,2 @@
-# R-androidApp-pets-HakuyaHoshin
+# homE-of-Pets-HakuyaHoshin
 only demo,for private use.
